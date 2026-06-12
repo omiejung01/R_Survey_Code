@@ -12,3 +12,6 @@ lowinc <- fwbdata %>% filter(PPINCIMP<=4)
 
 table(lowinc$PPINCIMP)
 
+lowinc2 <- lowinc %>% select(PPGENDER,PPHHSIZE,PPINCIMP)
+
+
