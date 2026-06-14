@@ -14,4 +14,8 @@ table(lowinc$PPINCIMP)
 
 lowinc2 <- lowinc %>% select(PPGENDER,PPHHSIZE,PPINCIMP)
 
+#creating a smaller_house dummy variable
+
+lowinc2$smaller_house <- ifelse(lowinc2$PPHHSIZE <= 2, 1,0)
+
 
