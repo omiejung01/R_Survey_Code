@@ -37,3 +37,5 @@ table(df$waifu_num)
 
 df2 <- df %>% select(ID,TIMESTAMP,Q0.1, Q0.2, Q1.1, Q1.2, Q1.3,meta_num, waifu_num, Q2.3, Q3.1, Q3.2, Q3.3, Q3.4, Q3.5, Q4.1, Q4.2, Q5.1,Q5.2,Q5.3,Q5.4,Q5.5,Q5.6,Q5.7)
 
+table(df2$Q1.1)
+
